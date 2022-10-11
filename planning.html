@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo HTML Tableau - planning</title>
+    <style>
+        table {
+            border: 1pt solid black;
+            text-align: center;
+            empty-cells: show;
+            width:1200px;
+            border-collapse: collapse;
+        }
+
+        tr,
+        td {
+            border: 1pt solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <table>
+            <tbody>
+                <caption> Planning des tâches par équipe </caption>
+<tr style="background-color:red; color:white; font-weight: bold;">
+    <td rowspan="2">Equipes</td>
+    <td colspan="6">Janvier</td>
+    <td rowspan="2"></td>
+</tr>
+<tr style="background-color:red; color:white; font-weight: bold;">
+    <td>Lundi</td>
+    <td>Mardi</td>
+    <td colspan="2">Mercredi</td>
+    <td>Jeudi</td>
+    <td>Vendredi</td>
+</tr>
+<tr style="background-color:#CF9FFF">
+    <td>Equipe1</td>
+    <td colspan="4">Tache1</td>
+    <td colspan="2">Tache2</td>
+    <td rowspan="2" style="background-color: yellow;">Semaine 1</td>
+</tr>
+<tr>
+<td>Equipe 2</td>
+<td colspan="3">Tache 1</td>
+<td colspan="3">Tache 2</td>
+</tr>
+<tr style="background-color:#CF9FFF">
+    <td>Equipe 1</td>
+    <td>Tache 3</td>
+    <td colspan="4">Tache 4</td>
+    <td>Tache 5</td>
+    <td rowspan="2" style="background-color: yellow;">Semaine 2</td>
+</tr>
+<tr>
+    <td>Equipe 2</td>
+    <td colspan="2">Tache 3</td>
+    <td colspan="4">Tache 4</td>
+</tr>
+<tr style="background-color:#CF9FFF">
+    <td >Equipe 1</td>
+    <td colspan="3">Tache 5</td>
+    <td colspan="3">Tache 6</td>
+    <td rowspan="2" style="background-color: yellow;">Semaine 3</td>
+</tr>
+<tr>
+    <td>Equipe 2</td>
+    <td>Tache 5</td>
+    <td colspan="5">Tache 6</td>
+</tr>
+<tr style="background-color:#CF9FFF">
+    <td>Equipe 1</td>
+    <td colspan="4">Tache 7</td>
+    <td colspan="2">Tache 8</td>
+    <td rowspan="2" style="background-color: yellow;">Semaine 4</td>
+</tr>
+<tr>
+    <td>Equipe 2</td>
+    <td colspan="3">Tache 7</td>
+    <td colspan="3">Tache 8</td>
+</tr>
+<tfoot style="background-color: lightsteelblue">
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+</tfoot>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
